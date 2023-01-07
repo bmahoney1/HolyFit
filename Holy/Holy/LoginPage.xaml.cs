@@ -14,9 +14,9 @@ namespace Holy
 
 		private void Button_Clicked(object sender, EventArgs e)
 		{
-			if (txtUsername.Text == "admin" && txtPassword.Text == "123")
+			if (txtUsername.Text == "Admin" && txtPassword.Text == "123")
 			{
-
+				Navigation.PushAsync(new HomePage());
 			}
 			else
 			{
@@ -27,8 +27,8 @@ namespace Holy
 
 		private void TapGestureRecognizer_Tappped(object sender, EventArgs e)
 		{
-
-		}
+            Navigation.PushAsync(new RegisterPage());
+        }
 
 	}
 }
