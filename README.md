@@ -1,0 +1,1 @@
+This personal project was created using SwiftUI for the front end and FireBase for the backend. The IOS was created for the use of having a place to post fitness content, to view fitnes content and to track your fitness journey!
